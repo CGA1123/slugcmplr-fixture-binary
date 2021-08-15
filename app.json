@@ -1,0 +1,11 @@
+{
+  "buildpacks": [
+    { "url": "https://github.com/CGA1123/heroku-buildpack-bar" },
+    { "url": "https://github.com/CGA1123/heroku-buildpack-foo" }
+  ],
+  "stack": "heroku-20",
+  "env": {
+    "PING": { "value": "PONG" },
+    "PONG": { "value": "PING" }
+  }
+}
